@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 74
+  controlID: 106
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 16
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -432,7 +432,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ea600000ec600000ee600000
+    m_ExpandedIDs: ffffffff00000000ea600000ee60000024670000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -598,7 +598,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -611,18 +611,18 @@ MonoBehaviour:
       y: 21
       width: 906
       height: 419
-    m_Scale: {x: 0.5252903, y: 0.5252903}
-    m_Translation: {x: 453, y: 88.18659}
+    m_Scale: {x: 0.32734376, y: 0.32734376}
+    m_Translation: {x: 453, y: 209.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -862.38025
-      y: -167.88162
-      width: 1724.7605
-      height: 797.6542
+      x: -1383.8663
+      y: -640
+      width: 2767.7327
+      height: 1280
     m_MinimalGUI: 1
   m_defaultScale: 0.32734376
   m_LastWindowPixelSize: {x: 906, y: 440}
@@ -1000,9 +1000,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.18529862, y: -1.3017001, z: -0.002216543}
+    m_Target: {x: -0.8734934, y: -3.1499066, z: 0.00032970135}
     speed: 2
-    m_Value: {x: 0.18529862, y: -1.3017001, z: -0.002216543}
+    m_Value: {x: -0.8734934, y: -3.1499066, z: 0.00032970135}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1052,9 +1052,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.8949344
+    m_Target: 3.275028
     speed: 2
-    m_Value: 2.8949344
+    m_Value: 3.275028
   m_Ortho:
     m_Target: 1
     speed: 2
