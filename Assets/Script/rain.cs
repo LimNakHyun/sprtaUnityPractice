@@ -36,7 +36,6 @@ public class rain : MonoBehaviour
             GetComponent<SpriteRenderer>().color = new Color(150 / 255f, 150 / 255f, 255 / 255f, 255 / 255f);
         }
         transform.localScale = new Vector3(size, size, 0);
-        Debug.Log("Á¡¼ö: " + score);
     }
 
     // Update is called once per frame
@@ -50,6 +49,12 @@ public class rain : MonoBehaviour
         if (collision.gameObject.tag == "ground")
         {
             Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "rtan")
+        {
+            Destroy(gameObject);
+            GameManager.I.addScore(score);
         }
     }
 }
